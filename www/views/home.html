@@ -1,0 +1,17 @@
+<ion-view>
+    <ion-content scroll="true">
+        <div id="page" class="home">
+            <article>     
+            <ul>
+                <li class="workshopList"  ng-style="{'background-image':'url({{workshop.imgUrl}})'}" ng-repeat="workshop in workshops">
+                    <span class="workshopName">{{workshop.name}}</span>
+                    <span class="workshopDistance">{{workshop.distance}}</span>
+                    <span class="workshopDate">{{workshop.date}}</span>
+                    <span class="blackground"></span>
+            
+                    </li>
+                <li class="workshopList"></li>
+            </ul>
+            </article>
+    </ion-content>
+</ion-view>
