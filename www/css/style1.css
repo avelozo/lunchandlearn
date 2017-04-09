@@ -59,11 +59,11 @@ transition: background-color: .5s; }
 	margin-left: 30px;
 	padding-left: 30 px;
   padding: 10px;
-  width: 500 px;
+  width: 500px;
   min-height:200px; /* Altura mínima */
-  height:auto
+  
   background-size:100% 100%;
-  background: #cf0004 url(../img/auditoriun.jpg) no-repeat center;
+  background-image: #cf0004 url(../img/auditoriun.jpg) no-repeat center;
   position: relative;
    	
 
@@ -154,7 +154,16 @@ section.description article { padding: 0 20 px 0 515px;
 }
 
 
-
-.check-food{
-  
+.checkboxgroup{
+    width: 20em;
+    overflow: auto;
 }
+.checkboxgroup p{
+    width: 7em;
+    text-align: right;
+}
+.checkboxgroup label{
+    width: 12em;
+    float: right;
+}
+
