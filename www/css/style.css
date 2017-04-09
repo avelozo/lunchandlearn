@@ -20,6 +20,7 @@ body { padding:0; margin:0; background:#fff; }
 
    position:relative;
    width:100%;
+   height: 150px;
    min-height:160px;
    display:block;
    background-image: url("../img/spot1.png");
@@ -73,4 +74,128 @@ article >  ul {
     right:0;
     margin: 5px;
     background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+h1 {
+  margin: 0 0 1em 0;
+  font-size: 2.8em;
+  font-weight: 700; 
+}
+
+h1 {
+  margin: 0 0 .5em 0;
+  font-size: 1.6em;
+  font-weight: 700; 
+}
+
+a{
+  color: #007eff;
+}
+a:visited{ color: #65b1ff; }
+
+.btn { font-size: 17px; text-decoration: none;
+color: green; border: 1px solid green;
+padding: 4px 4px;
+background-color: green;
+
+transition: background-color: .5s; }
+.btn:hover {
+  background-color: rgba(0, 0, 0, .3);
+}
+
+/*Header */
+
+
+.image{
+
+  min-height:200px; /* Altura mínima */
+  height:auto;
+   background-size:100%;
+  background: #cf0004 url(../img/auditoriun.jpg) no-repeat center;
+  position: relative;
+   	
+
+}
+
+.title{
+	
+	margin-left: 130px;
+	margin-top: 130px;
+  padding: 10px;
+}
+
+.instructor{
+	margin-left: 130px;
+	margin-top: 130px;
+  padding: 10px;
+}
+
+.buy{
+  font-size: 16px;
+	background-color: green;
+  max-width: 150px;
+  align-content: center;
+  margin-left: 525px;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+}
+
+header {background: black;color:white;}
+
+header a.logo{
+  position: absolute;
+  display: block; 
+  width: 160px;
+  height: 66px;
+  background-size: contain;
+  top: 15px;
+  left: 20px;
+}
+
+
+
+    /* Section Main - All*/
+
+section{
+  padding: 0 30px;
+
+}
+section::after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+
+    /* Section Main  */
+
+
+section.main{
+      padding: 0;
+    }
+
+section.description{
+  background-color: #cc6633;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+section.description article { padding: 0 20 px 0 515px;
+  min-height: 220px;
 }

@@ -8,6 +8,12 @@ angular.module('app.routes', []).config(function ($stateProvider, $urlRouterProv
     controller: 'HomeController'
   });
 
+   $stateProvider.state('description', {
+    url: '/description',
+    templateUrl: 'views/description.html',
+    controller: 'DescriptionController'
+  });
+
   $urlRouterProvider.otherwise('/home');
 
 });
