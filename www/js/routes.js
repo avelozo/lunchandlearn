@@ -14,6 +14,12 @@ angular.module('app.routes', []).config(function ($stateProvider, $urlRouterProv
     controller: 'DescriptionController'
   });
 
+    $stateProvider.state('success', {
+    url: '/success',
+    templateUrl: 'views/success.html',
+    controller: 'SuccessController'
+  });
+
   $urlRouterProvider.otherwise('/home');
 
 });

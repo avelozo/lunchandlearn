@@ -134,9 +134,9 @@ transition: background-color: .5s; }
 .buy{
   font-size: 16px;
 	background-color: green;
-  max-width: 150px;
+  width: 100%;
+  border-radius: 10px;
   align-content: center;
-  margin-left: 525px;
 }
 
 .flex-container {

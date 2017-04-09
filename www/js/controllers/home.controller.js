@@ -9,7 +9,8 @@ angular.module('app.controllers.home', []).controller('HomeController', function
  });
 
  
-  $scope.selectedWorkshop = function () {
+  $scope.selectedWorkshop = function (workshop) {
+    window.localStorage.setItem("workshop", workshop);
      $state.go('description');
   };
 
