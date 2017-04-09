@@ -202,9 +202,14 @@ section.description article { padding: 0 20 px 0 515px;
   min-height: 220px;
 }
 
-button{
+.imageSuccess{
+  align: middle;
+  width: 100px;
+}
 
-  font-weight: 800;
-  color: white;
-
+.center {
+    margin: auto;
+    width: 50%;
+    margin-top:40px;
+    padding: 10px;
 }
