@@ -134,6 +134,8 @@ transition: background-color: .5s; }
 .buy{
   font-size: 16px;
 	background-color: green;
+  color:white;
+  margin-top:10px;
   width: 100%;
   border-radius: 10px;
   align-content: center;
@@ -198,4 +200,11 @@ section.description{
 }
 section.description article { padding: 0 20 px 0 515px;
   min-height: 220px;
+}
+
+button{
+
+  font-weight: 800;
+  color: white;
+
 }

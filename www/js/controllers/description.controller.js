@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('app.controllers.description', []).controller('DescriptionController', function ($scope) {
+angular.module('app.controllers.description', []).controller('DescriptionController', function ($scope,$state) {
 
 
  $scope.workshop = {};
